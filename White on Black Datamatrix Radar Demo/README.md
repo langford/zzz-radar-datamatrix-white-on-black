@@ -5,5 +5,6 @@ There is no need to deal with cocoapods.
 
 Pertient source files: 
 
-White on Black Datamatrix Radar Demo/Pods/DYQRCodeDecoder/Class/DYQRCodeDecoderViewController.m
-./White on Black Datamatrix Radar Demo/ViewController.swift
+-White on Black Datamatrix Radar Demo/Pods/DYQRCodeDecoder/Class/DYQRCodeDecoderViewController.m
+
+-White on Black Datamatrix Radar Demo/ViewController.swift

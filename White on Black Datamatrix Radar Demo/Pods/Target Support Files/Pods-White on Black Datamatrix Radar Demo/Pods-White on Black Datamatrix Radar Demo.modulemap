@@ -1,0 +1,6 @@
+framework module Pods_White_on_Black_Datamatrix_Radar_Demo {
+  umbrella header "Pods-White on Black Datamatrix Radar Demo-umbrella.h"
+
+  export *
+  module * { export * }
+}

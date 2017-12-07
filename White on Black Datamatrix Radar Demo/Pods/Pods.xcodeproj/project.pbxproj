@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2618616068E355F86EAACD9E3962F942 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		2A3FEE458BDCCCAC12A2D312A1215813 /* img_animation_scan_line.png in Resources */ = {isa = PBXBuildFile; fileRef = DB07E4B341B6AC5E8DE02E8056B42FFB /* img_animation_scan_line.png */; };
+		430B52D7C266F1459B6EB2D8384F1EE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4FBA104D88CDB409277A5B69EA666DDE /* Pods-White on Black Datamatrix Radar Demo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E30B32615CD14135728226690DF021EC /* Pods-White on Black Datamatrix Radar Demo-dummy.m */; };
+		61E6599F7E483FC068A4BF60712D743B /* DYQRCodeDecoder-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFBB73BBF1206D06D07FE16D9DBF1BEE /* DYQRCodeDecoder-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6460D327957859AA62E681A772EBADA1 /* DYQRCodeDecoderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D37E99422A3A76F45D82D5F2657EC5 /* DYQRCodeDecoderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CE5F7F101079AC0C2F1E8F16E776BF2 /* DYQRCodeDecoderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CEAD72F50A1BD42F48373B388C64276 /* DYQRCodeDecoderViewController.m */; };
+		DA6C7923269DA60F4F7CA6808C789E03 /* Pods-White on Black Datamatrix Radar Demo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FAFB4133AAB56831802BF03ED8A604E /* Pods-White on Black Datamatrix Radar Demo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEBDF4399F0DD0324465F262CB6B780D /* DYQRCodeDecoder-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BC222EFF8C265D39D2FB4469A2799B5 /* DYQRCodeDecoder-dummy.m */; };
+		FF91A0D0CC3B0E835E4AC8258D2A182B /* img_animation_scan_pic.png in Resources */ = {isa = PBXBuildFile; fileRef = 970CCC14411E9012A9D9B6F5FBA2AF43 /* img_animation_scan_pic.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17A01410C438BA72D41E8EFADF8FA800 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 64AE346BCFF68631A44CEC00CC83FDA5;
+			remoteInfo = DYQRCodeDecoder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05F13198794B7F96283941D12BE73395 /* DYQRCodeDecoder.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DYQRCodeDecoder.modulemap; sourceTree = "<group>"; };
+		08FF1BFB4DA597F20E720E3A9D56EB6A /* Pods-White on Black Datamatrix Radar Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-White on Black Datamatrix Radar Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		17027B0B1C06932BE3177D98C063F03F /* Pods_White_on_Black_Datamatrix_Radar_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_White_on_Black_Datamatrix_Radar_Demo.framework; path = "Pods-White on Black Datamatrix Radar Demo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A4B34433AB775851281C0ED3D5636C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CEAD72F50A1BD42F48373B388C64276 /* DYQRCodeDecoderViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DYQRCodeDecoderViewController.m; path = Class/DYQRCodeDecoderViewController.m; sourceTree = "<group>"; };
+		2D17072A2BE36EEEE209808F289258B9 /* Pods-White on Black Datamatrix Radar Demo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-White on Black Datamatrix Radar Demo.modulemap"; sourceTree = "<group>"; };
+		3594E9916927C7841A65B708F3439A77 /* Pods-White on Black Datamatrix Radar Demo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-White on Black Datamatrix Radar Demo-resources.sh"; sourceTree = "<group>"; };
+		3C346CDB1BF20A25E8CF9486DBCF0126 /* DYQRCodeDecoder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DYQRCodeDecoder.framework; path = DYQRCodeDecoder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FAFB4133AAB56831802BF03ED8A604E /* Pods-White on Black Datamatrix Radar Demo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-White on Black Datamatrix Radar Demo-umbrella.h"; sourceTree = "<group>"; };
+		4D95BD7A6B45603AEEF5118F77A931A1 /* Pods-White on Black Datamatrix Radar Demo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-White on Black Datamatrix Radar Demo-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		77203E76D0A2DAB9081FCB6CD8633CB3 /* Pods-White on Black Datamatrix Radar Demo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-White on Black Datamatrix Radar Demo-acknowledgements.plist"; sourceTree = "<group>"; };
+		78D37E99422A3A76F45D82D5F2657EC5 /* DYQRCodeDecoderViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DYQRCodeDecoderViewController.h; path = Class/DYQRCodeDecoderViewController.h; sourceTree = "<group>"; };
+		8B1FB6615E0DCA13BA9EEFDF558DB980 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		970CCC14411E9012A9D9B6F5FBA2AF43 /* img_animation_scan_pic.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = img_animation_scan_pic.png; path = Class/img_animation_scan_pic.png; sourceTree = "<group>"; };
+		97F77B6087CE4B06CDBF7CAB28A03908 /* DYQRCodeDecoder-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DYQRCodeDecoder-prefix.pch"; sourceTree = "<group>"; };
+		9BC222EFF8C265D39D2FB4469A2799B5 /* DYQRCodeDecoder-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DYQRCodeDecoder-dummy.m"; sourceTree = "<group>"; };
+		ACF0323A5E88A85D4CF5E1449BD4B76F /* Pods-White on Black Datamatrix Radar Demo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-White on Black Datamatrix Radar Demo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AFBB73BBF1206D06D07FE16D9DBF1BEE /* DYQRCodeDecoder-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DYQRCodeDecoder-umbrella.h"; sourceTree = "<group>"; };
+		D9B8A13C1B47CE0F8982530C82CE93E0 /* Pods-White on Black Datamatrix Radar Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-White on Black Datamatrix Radar Demo.release.xcconfig"; sourceTree = "<group>"; };
+		DB07E4B341B6AC5E8DE02E8056B42FFB /* img_animation_scan_line.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = img_animation_scan_line.png; path = Class/img_animation_scan_line.png; sourceTree = "<group>"; };
+		DD036E1017773CFB5FDF215DBF3F63DE /* DYQRCodeDecoder.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DYQRCodeDecoder.xcconfig; sourceTree = "<group>"; };
+		E30B32615CD14135728226690DF021EC /* Pods-White on Black Datamatrix Radar Demo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-White on Black Datamatrix Radar Demo-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09C002EF4C5549955E25424B8D8752C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				430B52D7C266F1459B6EB2D8384F1EE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2F4F2EC1FD1131FC717319E9F068092 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2618616068E355F86EAACD9E3962F942 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		008ACCB0DCFE935218B23E16C3D78C6C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0C836D639DA6049DDEDD3402D9F9454 /* Pods-White on Black Datamatrix Radar Demo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		17A3C57CFA28C4AB2C1231B2842EB51B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				05F13198794B7F96283941D12BE73395 /* DYQRCodeDecoder.modulemap */,
+				DD036E1017773CFB5FDF215DBF3F63DE /* DYQRCodeDecoder.xcconfig */,
+				9BC222EFF8C265D39D2FB4469A2799B5 /* DYQRCodeDecoder-dummy.m */,
+				97F77B6087CE4B06CDBF7CAB28A03908 /* DYQRCodeDecoder-prefix.pch */,
+				AFBB73BBF1206D06D07FE16D9DBF1BEE /* DYQRCodeDecoder-umbrella.h */,
+				8B1FB6615E0DCA13BA9EEFDF558DB980 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DYQRCodeDecoder";
+			sourceTree = "<group>";
+		};
+		2BD564C30C0BE05A98283B09745F83C0 /* DYQRCodeDecoder */ = {
+			isa = PBXGroup;
+			children = (
+				78D37E99422A3A76F45D82D5F2657EC5 /* DYQRCodeDecoderViewController.h */,
+				2CEAD72F50A1BD42F48373B388C64276 /* DYQRCodeDecoderViewController.m */,
+				AA13C164440E360AE24DED9139C6C184 /* Resources */,
+				17A3C57CFA28C4AB2C1231B2842EB51B /* Support Files */,
+			);
+			name = DYQRCodeDecoder;
+			path = DYQRCodeDecoder;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7DDCDDEF9E2267CE2009742A3EBCA8D2 /* Pods */,
+				DE4256252C31D65C1830F3E1798364FA /* Products */,
+				008ACCB0DCFE935218B23E16C3D78C6C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DDCDDEF9E2267CE2009742A3EBCA8D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2BD564C30C0BE05A98283B09745F83C0 /* DYQRCodeDecoder */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AA13C164440E360AE24DED9139C6C184 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DB07E4B341B6AC5E8DE02E8056B42FFB /* img_animation_scan_line.png */,
+				970CCC14411E9012A9D9B6F5FBA2AF43 /* img_animation_scan_pic.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D0C836D639DA6049DDEDD3402D9F9454 /* Pods-White on Black Datamatrix Radar Demo */ = {
+			isa = PBXGroup;
+			children = (
+				22A4B34433AB775851281C0ED3D5636C /* Info.plist */,
+				2D17072A2BE36EEEE209808F289258B9 /* Pods-White on Black Datamatrix Radar Demo.modulemap */,
+				ACF0323A5E88A85D4CF5E1449BD4B76F /* Pods-White on Black Datamatrix Radar Demo-acknowledgements.markdown */,
+				77203E76D0A2DAB9081FCB6CD8633CB3 /* Pods-White on Black Datamatrix Radar Demo-acknowledgements.plist */,
+				E30B32615CD14135728226690DF021EC /* Pods-White on Black Datamatrix Radar Demo-dummy.m */,
+				4D95BD7A6B45603AEEF5118F77A931A1 /* Pods-White on Black Datamatrix Radar Demo-frameworks.sh */,
+				3594E9916927C7841A65B708F3439A77 /* Pods-White on Black Datamatrix Radar Demo-resources.sh */,
+				3FAFB4133AAB56831802BF03ED8A604E /* Pods-White on Black Datamatrix Radar Demo-umbrella.h */,
+				08FF1BFB4DA597F20E720E3A9D56EB6A /* Pods-White on Black Datamatrix Radar Demo.debug.xcconfig */,
+				D9B8A13C1B47CE0F8982530C82CE93E0 /* Pods-White on Black Datamatrix Radar Demo.release.xcconfig */,
+			);
+			name = "Pods-White on Black Datamatrix Radar Demo";
+			path = "Target Support Files/Pods-White on Black Datamatrix Radar Demo";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DE4256252C31D65C1830F3E1798364FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C346CDB1BF20A25E8CF9486DBCF0126 /* DYQRCodeDecoder.framework */,
+				17027B0B1C06932BE3177D98C063F03F /* Pods_White_on_Black_Datamatrix_Radar_Demo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A583A35616B7BABEA224AC1D69BFDB28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6C7923269DA60F4F7CA6808C789E03 /* Pods-White on Black Datamatrix Radar Demo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8A86A2874A8EE68636F123BD23B14AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E6599F7E483FC068A4BF60712D743B /* DYQRCodeDecoder-umbrella.h in Headers */,
+				6460D327957859AA62E681A772EBADA1 /* DYQRCodeDecoderViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5E163BA7C125EE4565AD9D040A57FF14 /* Pods-White on Black Datamatrix Radar Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E795857CF9B3660BAF9B0D37A5F356AE /* Build configuration list for PBXNativeTarget "Pods-White on Black Datamatrix Radar Demo" */;
+			buildPhases = (
+				449EB088D92DE40DB095E281CE2E1EF0 /* Sources */,
+				A2F4F2EC1FD1131FC717319E9F068092 /* Frameworks */,
+				A583A35616B7BABEA224AC1D69BFDB28 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC5EB40C9DBFFA09444FF61234D293EA /* PBXTargetDependency */,
+			);
+			name = "Pods-White on Black Datamatrix Radar Demo";
+			productName = "Pods-White on Black Datamatrix Radar Demo";
+			productReference = 17027B0B1C06932BE3177D98C063F03F /* Pods_White_on_Black_Datamatrix_Radar_Demo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		64AE346BCFF68631A44CEC00CC83FDA5 /* DYQRCodeDecoder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 994C3E83D6475FF6B13AC9BCEBB5357E /* Build configuration list for PBXNativeTarget "DYQRCodeDecoder" */;
+			buildPhases = (
+				8AEA311E78D203CBB0AECD7A50CBD85A /* Sources */,
+				09C002EF4C5549955E25424B8D8752C1 /* Frameworks */,
+				B8A86A2874A8EE68636F123BD23B14AF /* Headers */,
+				F4D5FF82899E4FDDAC7494E90F51DA9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DYQRCodeDecoder;
+			productName = DYQRCodeDecoder;
+			productReference = 3C346CDB1BF20A25E8CF9486DBCF0126 /* DYQRCodeDecoder.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DE4256252C31D65C1830F3E1798364FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64AE346BCFF68631A44CEC00CC83FDA5 /* DYQRCodeDecoder */,
+				5E163BA7C125EE4565AD9D040A57FF14 /* Pods-White on Black Datamatrix Radar Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4D5FF82899E4FDDAC7494E90F51DA9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A3FEE458BDCCCAC12A2D312A1215813 /* img_animation_scan_line.png in Resources */,
+				FF91A0D0CC3B0E835E4AC8258D2A182B /* img_animation_scan_pic.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		449EB088D92DE40DB095E281CE2E1EF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FBA104D88CDB409277A5B69EA666DDE /* Pods-White on Black Datamatrix Radar Demo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AEA311E78D203CBB0AECD7A50CBD85A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEBDF4399F0DD0324465F262CB6B780D /* DYQRCodeDecoder-dummy.m in Sources */,
+				8CE5F7F101079AC0C2F1E8F16E776BF2 /* DYQRCodeDecoderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC5EB40C9DBFFA09444FF61234D293EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DYQRCodeDecoder;
+			target = 64AE346BCFF68631A44CEC00CC83FDA5 /* DYQRCodeDecoder */;
+			targetProxy = 17A01410C438BA72D41E8EFADF8FA800 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03272EC9F598F41B332656218F4E3C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD036E1017773CFB5FDF215DBF3F63DE /* DYQRCodeDecoder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DYQRCodeDecoder/DYQRCodeDecoder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DYQRCodeDecoder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DYQRCodeDecoder/DYQRCodeDecoder.modulemap";
+				PRODUCT_NAME = DYQRCodeDecoder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		12C4B864767C59600DBFA238F1E2F8BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		59F0302F2371FCC6B73EF0A418D40734 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6889A702A923C5715E73974CF667E3DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9B8A13C1B47CE0F8982530C82CE93E0 /* Pods-White on Black Datamatrix Radar Demo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-White on Black Datamatrix Radar Demo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-White on Black Datamatrix Radar Demo/Pods-White on Black Datamatrix Radar Demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_White_on_Black_Datamatrix_Radar_Demo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		91985FB5FB040E281EB2E58B41E5859E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD036E1017773CFB5FDF215DBF3F63DE /* DYQRCodeDecoder.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DYQRCodeDecoder/DYQRCodeDecoder-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DYQRCodeDecoder/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DYQRCodeDecoder/DYQRCodeDecoder.modulemap";
+				PRODUCT_NAME = DYQRCodeDecoder;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E40AB8EEDEE2EBF44B25A32B2AFA6967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08FF1BFB4DA597F20E720E3A9D56EB6A /* Pods-White on Black Datamatrix Radar Demo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-White on Black Datamatrix Radar Demo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-White on Black Datamatrix Radar Demo/Pods-White on Black Datamatrix Radar Demo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_White_on_Black_Datamatrix_Radar_Demo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F0302F2371FCC6B73EF0A418D40734 /* Debug */,
+				12C4B864767C59600DBFA238F1E2F8BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		994C3E83D6475FF6B13AC9BCEBB5357E /* Build configuration list for PBXNativeTarget "DYQRCodeDecoder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03272EC9F598F41B332656218F4E3C5B /* Debug */,
+				91985FB5FB040E281EB2E58B41E5859E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E795857CF9B3660BAF9B0D37A5F356AE /* Build configuration list for PBXNativeTarget "Pods-White on Black Datamatrix Radar Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40AB8EEDEE2EBF44B25A32B2AFA6967 /* Debug */,
+				6889A702A923C5715E73974CF667E3DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
